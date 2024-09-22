@@ -53,7 +53,7 @@
 
 
     <!-- 中间内容 -->
-    <div class="m-container-small m-padded-tb-big animated fadeIn">
+    <div id="waypoint" class="m-container-small m-padded-tb-big animated fadeIn">
         <div class="ui container">
             <!-- 头部 -->
             <div class="ui top attached segment">
@@ -659,13 +659,13 @@ h5,h6{font-size:1em;}
 
     <!-- 工具条 -->
 
-    <div class=" m-fixed m-right-bottom m-padded">
+    <div id="toolbar" class=" m-fixed m-right-bottom m-padded">
         <div class="ui vertical icon buttons">
             <button type="button" class=" ui toc teal button">目录</button>
             <a href="#comment-container" class=" ui teal button">留言</a>
             <button class=" ui wechat icon button"><i class="weixin icon "></i></button>
             <button class=" ui wechat icon button"><i class="weixin icon "></i></button>
-            <a href="#" class=" ui  icon button"><i class="chevron up icon"></i></a>
+            <div id="toTop-button" class=" ui  icon button"><i class="chevron up icon"></i></div>
         </div>
     </div>
 
@@ -675,8 +675,7 @@ h5,h6{font-size:1em;}
     </div>
     </div>
 
-    <div id="qrcode" class="ui wechat-qr flowing popup transition hidden "
-        style="width: 130px !important;">
+    <div id="qrcode" class="ui wechat-qr flowing popup transition hidden " style="width: 130px !important;">
         <!-- <img src="/static/images/test.jpg" alt="" class="ui rounded image" style="width: 120px !important;"> -->
     </div>
 
@@ -684,7 +683,7 @@ h5,h6{font-size:1em;}
 
 
     <!-- 底部 -->
-    <footer class="ui inverted vertical segment m-padded-tb-massive">
+    <footer class="ui inverted vertical segment m-padded-tb-massive" style="display: none;">
         <div class="ui center aligned container">
             <!-- grid:16份 -->
             <div class="ui inverted divided stackable grid">
@@ -736,8 +735,9 @@ h5,h6{font-size:1em;}
 <!-- 二维码生成 -->
 <script src="./static/lib/qrcode/qrcode.min.js"></script>
 <!-- 平滑滚动 -->
- <script src="./static/lib/jquery.scrollTo-master/jquery.scrollTo.min.js"></script>
-
+<script src="./static/lib/jquery.scrollTo-master/jquery.scrollTo.min.js"></script>
+<!-- 滚动监听 -->
+<script src="./static/lib/waypoints/jquery.waypoints.min.js"></script>
 
 <script>
 
@@ -773,7 +773,7 @@ h5,h6{font-size:1em;}
         on: 'hover',
         position: 'left center'
     });
-// 二维码生成
+    // 二维码生成
     var qrcode = new QRCode("qrcode", {
         text: "http://jindo.dev.naver.com/collie",
         width: 110,
@@ -783,7 +783,26 @@ h5,h6{font-size:1em;}
         correctLevel: QRCode.CorrectLevel.H
     });
 
+    // 顶部滚动过渡动画触发
+    $('#toTop-button').click(function () {
+        $(window).scrollTo(0, 500)
+    });
 
+    // 监听滚动
+    var waypoint = new Waypoint({
+        // 监测id
+        element: document.getElementById('waypoint'),
+        // 滚动触发条件
+        handler: function (direction) {
+            // 判断是否隐藏顶部按钮
+            if (direction == 'down') {
+                $('#toolbar').show(100);
+            } else {
+                $('#toolbar').hide(500);
+            }
+            console.log('Scrolled to waypoint !' + direction);
+        }
+    })
 
 
 </script>
