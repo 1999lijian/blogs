@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-//test
+//开始
 @SpringBootApplication
 public class BackEndApplication {
 
