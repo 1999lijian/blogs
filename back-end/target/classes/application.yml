@@ -1,0 +1,10 @@
+spring:
+  #thymeleaf配置
+  thymeleaf:
+    mode: HTML
+  #指定配置文件
+  profiles:
+    active: dev
+
+
+
