@@ -408,3 +408,17 @@ Verify the connector's configuration, identify and stop any process that's liste
 2024-09-24 21:19:24.214  INFO 16364 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2024-09-24 21:19:24.282  INFO 16364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2024-09-24 21:19:24.284  INFO 16364 --- [main] com.li.backend.BackEndApplication        : Started BackEndApplication in 0.708 seconds (JVM running for 1.332)
+2024-09-24 22:22:28.494  INFO 37016 --- [main] com.li.backend.BackEndApplication        : Starting BackEndApplication on LIJIANTPC with PID 37016 (D:\project\blog\back-end\target\classes started by 10141 in D:\project\blog\back-end)
+2024-09-24 22:22:28.495 DEBUG 37016 --- [main] com.li.backend.BackEndApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2024-09-24 22:22:28.496  INFO 37016 --- [main] com.li.backend.BackEndApplication        : The following profiles are active: dev
+2024-09-24 22:22:28.825  INFO 37016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-09-24 22:22:28.829  INFO 37016 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24 22:22:28.829  INFO 37016 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-09-24 22:22:28.858  INFO 37016 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24 22:22:28.858  INFO 37016 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 346 ms
+2024-09-24 22:22:28.918  INFO 37016 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-24 22:22:28.982  INFO 37016 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-09-24 22:22:28.984  INFO 37016 --- [main] com.li.backend.BackEndApplication        : Started BackEndApplication in 0.683 seconds (JVM running for 1.287)
+2024-09-24 22:24:45.518  INFO 37016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24 22:24:45.518  INFO 37016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24 22:24:45.521  INFO 37016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
