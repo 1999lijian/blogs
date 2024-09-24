@@ -18,5 +18,6 @@ logging:
     root: info
     com.li.backend: debug
   file: log/blog-dev.log
-
-
+#端口号
+server:
+  port: 8089
