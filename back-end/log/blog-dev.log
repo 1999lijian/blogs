@@ -408,6 +408,7 @@ Verify the connector's configuration, identify and stop any process that's liste
 2024-09-24 21:19:24.214  INFO 16364 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2024-09-24 21:19:24.282  INFO 16364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2024-09-24 21:19:24.284  INFO 16364 --- [main] com.li.backend.BackEndApplication        : Started BackEndApplication in 0.708 seconds (JVM running for 1.332)
+<<<<<<< HEAD
 2024-09-24 22:22:28.494  INFO 37016 --- [main] com.li.backend.BackEndApplication        : Starting BackEndApplication on LIJIANTPC with PID 37016 (D:\project\blog\back-end\target\classes started by 10141 in D:\project\blog\back-end)
 2024-09-24 22:22:28.495 DEBUG 37016 --- [main] com.li.backend.BackEndApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
 2024-09-24 22:22:28.496  INFO 37016 --- [main] com.li.backend.BackEndApplication        : The following profiles are active: dev
@@ -422,3 +423,173 @@ Verify the connector's configuration, identify and stop any process that's liste
 2024-09-24 22:24:45.518  INFO 37016 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-09-24 22:24:45.518  INFO 37016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-09-24 22:24:45.521  INFO 37016 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+=======
+2024-09-24 21:57:08.938  INFO 21764 --- [main] com.li.backend.BackEndApplication        : Starting BackEndApplication on 1999LIJIAN with PID 21764 (G:\project\blog\back-end\target\classes started by 10141 in G:\project\blog\back-end)
+2024-09-24 21:57:08.943 DEBUG 21764 --- [main] com.li.backend.BackEndApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2024-09-24 21:57:08.945  INFO 21764 --- [main] com.li.backend.BackEndApplication        : The following profiles are active: dev
+2024-09-24 21:57:09.634  INFO 21764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-09-24 21:57:09.645  INFO 21764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24 21:57:09.645  INFO 21764 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-09-24 21:57:09.712  INFO 21764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24 21:57:09.712  INFO 21764 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 727 ms
+2024-09-24 21:57:09.841  INFO 21764 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-24 21:57:09.959  INFO 21764 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-24 21:57:09.967  INFO 21764 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-09-24 21:57:09.970 ERROR 21764 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-24 21:57:09.972  INFO 21764 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-24 21:58:15.825  INFO 13892 --- [main] com.li.backend.BackEndApplication        : Starting BackEndApplication on 1999LIJIAN with PID 13892 (G:\project\blog\back-end\target\classes started by 10141 in G:\project\blog\back-end)
+2024-09-24 21:58:15.829 DEBUG 13892 --- [main] com.li.backend.BackEndApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2024-09-24 21:58:15.829  INFO 13892 --- [main] com.li.backend.BackEndApplication        : The following profiles are active: dev
+2024-09-24 21:58:16.480  INFO 13892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-09-24 21:58:16.488  INFO 13892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24 21:58:16.488  INFO 13892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-09-24 21:58:16.546  INFO 13892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24 21:58:16.546  INFO 13892 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 672 ms
+2024-09-24 21:58:16.664  INFO 13892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-24 21:58:16.773  INFO 13892 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-24 21:58:16.781  INFO 13892 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-09-24 21:58:16.784 ERROR 13892 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-24 21:58:16.786  INFO 13892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-24 21:58:39.105  INFO 25960 --- [main] com.li.backend.BackEndApplication        : Starting BackEndApplication on 1999LIJIAN with PID 25960 (G:\project\blog\back-end\target\classes started by 10141 in G:\project\blog\back-end)
+2024-09-24 21:58:39.107 DEBUG 25960 --- [main] com.li.backend.BackEndApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2024-09-24 21:58:39.108  INFO 25960 --- [main] com.li.backend.BackEndApplication        : The following profiles are active: dev
+2024-09-24 21:58:39.841  INFO 25960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-09-24 21:58:39.849  INFO 25960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24 21:58:39.849  INFO 25960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-09-24 21:58:39.908  INFO 25960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24 21:58:39.908  INFO 25960 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 755 ms
+2024-09-24 21:58:40.030  INFO 25960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-24 21:58:40.146  INFO 25960 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-24 21:58:40.154  INFO 25960 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-09-24 21:58:40.157 ERROR 25960 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-24 21:58:40.160  INFO 25960 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-24 22:03:24.857  INFO 14244 --- [main] com.li.backend.BackEndApplication        : Starting BackEndApplication on 1999LIJIAN with PID 14244 (G:\project\blog\back-end\target\classes started by 10141 in G:\project\blog\back-end)
+2024-09-24 22:03:24.860 DEBUG 14244 --- [main] com.li.backend.BackEndApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2024-09-24 22:03:24.860  INFO 14244 --- [main] com.li.backend.BackEndApplication        : The following profiles are active: dev
+2024-09-24 22:03:25.587  INFO 14244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-09-24 22:03:25.595  INFO 14244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24 22:03:25.595  INFO 14244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-09-24 22:03:25.650  INFO 14244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24 22:03:25.650  INFO 14244 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 753 ms
+2024-09-24 22:03:25.762  INFO 14244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-24 22:03:25.869  INFO 14244 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-24 22:03:25.878  INFO 14244 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-09-24 22:03:25.881 ERROR 14244 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-24 22:03:25.883  INFO 14244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-24 22:04:16.204  INFO 32864 --- [main] com.li.backend.BackEndApplication        : Starting BackEndApplication on 1999LIJIAN with PID 32864 (G:\project\blog\back-end\target\classes started by 10141 in G:\project\blog\back-end)
+2024-09-24 22:04:16.207 DEBUG 32864 --- [main] com.li.backend.BackEndApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2024-09-24 22:04:16.208  INFO 32864 --- [main] com.li.backend.BackEndApplication        : The following profiles are active: dev
+2024-09-24 22:04:16.931  INFO 32864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-09-24 22:04:16.939  INFO 32864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24 22:04:16.939  INFO 32864 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-09-24 22:04:16.995  INFO 32864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24 22:04:16.995  INFO 32864 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 735 ms
+2024-09-24 22:04:17.123  INFO 32864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-24 22:04:17.252  INFO 32864 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-24 22:04:17.261  INFO 32864 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-09-24 22:04:17.264 ERROR 32864 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-24 22:04:17.266  INFO 32864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-09-24 22:05:41.209  INFO 28956 --- [main] com.li.backend.BackEndApplication        : Starting BackEndApplication on 1999LIJIAN with PID 28956 (G:\project\blog\back-end\target\classes started by 10141 in G:\project\blog\back-end)
+2024-09-24 22:05:41.212 DEBUG 28956 --- [main] com.li.backend.BackEndApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2024-09-24 22:05:41.213  INFO 28956 --- [main] com.li.backend.BackEndApplication        : The following profiles are active: dev
+2024-09-24 22:05:41.856  INFO 28956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2024-09-24 22:05:41.865  INFO 28956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24 22:05:41.866  INFO 28956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-09-24 22:05:41.929  INFO 28956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24 22:05:41.929  INFO 28956 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 666 ms
+2024-09-24 22:05:42.050  INFO 28956 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-24 22:05:42.179  INFO 28956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2024-09-24 22:05:42.182  INFO 28956 --- [main] com.li.backend.BackEndApplication        : Started BackEndApplication in 1.469 seconds (JVM running for 2.437)
+2024-09-24 22:06:29.338  INFO 28956 --- [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24 22:06:29.339  INFO 28956 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24 22:06:29.345  INFO 28956 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-09-24 22:10:20.054  INFO 22268 --- [main] com.li.backend.BackEndApplication        : Starting BackEndApplication on 1999LIJIAN with PID 22268 (G:\project\blog\back-end\target\classes started by 10141 in G:\project\blog\back-end)
+2024-09-24 22:10:20.056 DEBUG 22268 --- [main] com.li.backend.BackEndApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2024-09-24 22:10:20.057  INFO 22268 --- [main] com.li.backend.BackEndApplication        : The following profiles are active: dev
+2024-09-24 22:10:20.664  INFO 22268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-09-24 22:10:20.671  INFO 22268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24 22:10:20.672  INFO 22268 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-09-24 22:10:20.722  INFO 22268 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24 22:10:20.722  INFO 22268 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 631 ms
+2024-09-24 22:10:20.835  INFO 22268 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-24 22:10:20.978  INFO 22268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-09-24 22:10:20.982  INFO 22268 --- [main] com.li.backend.BackEndApplication        : Started BackEndApplication in 1.294 seconds (JVM running for 2.071)
+2024-09-24 22:10:33.149  INFO 22268 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24 22:10:33.150  INFO 22268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-24 22:10:33.155  INFO 22268 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+
