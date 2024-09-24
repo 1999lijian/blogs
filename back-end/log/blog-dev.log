@@ -12,3 +12,17 @@
 2024-09-25 00:27:55.393  INFO 17968 --- [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-09-25 00:27:55.394  INFO 17968 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-09-25 00:27:55.396  INFO 17968 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-25 00:52:20.555  INFO 17476 --- [main] com.li.backend.BackEndApplication        : Starting BackEndApplication on LIJIANTPC with PID 17476 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-09-25 00:52:20.556 DEBUG 17476 --- [main] com.li.backend.BackEndApplication        : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2024-09-25 00:52:20.557  INFO 17476 --- [main] com.li.backend.BackEndApplication        : The following profiles are active: dev
+2024-09-25 00:52:20.888  INFO 17476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8089 (http)
+2024-09-25 00:52:20.893  INFO 17476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-25 00:52:20.895  INFO 17476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-09-25 00:52:20.929  INFO 17476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-25 00:52:20.929  INFO 17476 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 356 ms
+2024-09-25 00:52:20.998  INFO 17476 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-09-25 00:52:21.073  INFO 17476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8089 (http) with context path ''
+2024-09-25 00:52:21.075  INFO 17476 --- [main] com.li.backend.BackEndApplication        : Started BackEndApplication in 0.757 seconds (JVM running for 1.427)
+2024-09-25 00:52:43.188  INFO 17476 --- [http-nio-8089-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-25 00:52:43.189  INFO 17476 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-25 00:52:43.192  INFO 17476 --- [http-nio-8089-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
