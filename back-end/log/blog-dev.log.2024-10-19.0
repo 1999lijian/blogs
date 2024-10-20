@@ -1,0 +1,58 @@
+2024-10-19 23:55:01.481  INFO 20936 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 20936 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-19 23:55:01.484  INFO 20936 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-19 23:55:02.005  INFO 20936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-19 23:55:02.012  INFO 20936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-19 23:55:02.013  INFO 20936 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-19 23:55:02.050  INFO 20936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-19 23:55:02.050  INFO 20936 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 546 ms
+2024-10-19 23:55:02.248  INFO 20936 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-19 23:55:02.320  INFO 20936 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-19 23:55:02.453  INFO 20936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-19 23:55:02.455  INFO 20936 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.25 seconds (JVM running for 1.88)
+2024-10-19 23:55:30.758  INFO 20936 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-19 23:55:30.759  INFO 20936 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-19 23:55:30.765  INFO 20936 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-10-19 23:55:30.779  INFO 20936 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
+2024-10-19 23:55:30.783  INFO 20936 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
+2024-10-19 23:56:48.865  INFO 12520 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 12520 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-19 23:56:48.866  INFO 12520 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-19 23:56:49.359  INFO 12520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-19 23:56:49.367  INFO 12520 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-19 23:56:49.367  INFO 12520 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-19 23:56:49.403  INFO 12520 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-19 23:56:49.403  INFO 12520 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 519 ms
+2024-10-19 23:56:49.566  INFO 12520 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-19 23:56:49.626  INFO 12520 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-19 23:56:49.730  INFO 12520 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-19 23:56:49.732  INFO 12520 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.072 seconds (JVM running for 1.721)
+2024-10-19 23:57:20.316  INFO 12520 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-19 23:57:20.316  INFO 12520 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-19 23:57:20.322  INFO 12520 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-10-19 23:57:20.336  INFO 12520 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
+2024-10-19 23:57:20.341  INFO 12520 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
+2024-10-19 23:59:11.252  INFO 21848 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 21848 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-19 23:59:11.254  INFO 21848 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-19 23:59:11.735  INFO 21848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-19 23:59:11.740  INFO 21848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-19 23:59:11.740  INFO 21848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-19 23:59:11.773  INFO 21848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-19 23:59:11.773  INFO 21848 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 503 ms
+2024-10-19 23:59:11.920  INFO 21848 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-19 23:59:11.978  INFO 21848 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-19 23:59:12.088  INFO 21848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-19 23:59:12.090  INFO 21848 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.121 seconds (JVM running for 2.514)
+2024-10-19 23:59:14.499  INFO 21848 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-19 23:59:14.499  INFO 21848 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-19 23:59:14.505  INFO 21848 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-10-19 23:59:14.519  INFO 21848 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
+2024-10-19 23:59:14.523  INFO 21848 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
+2024-10-19 23:59:19.327  INFO 21848 --- [http-nio-8082-exec-8] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
+2024-10-19 23:59:19.327  INFO 21848 --- [http-nio-8082-exec-8] com.li.aspect.LogAspect                  : Result:{}index
+2024-10-19 23:59:19.959  INFO 21848 --- [http-nio-8082-exec-5] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
+2024-10-19 23:59:19.959  INFO 21848 --- [http-nio-8082-exec-5] com.li.aspect.LogAspect                  : Result:{}index
+2024-10-19 23:59:20.165  INFO 21848 --- [http-nio-8082-exec-9] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
+2024-10-19 23:59:20.165  INFO 21848 --- [http-nio-8082-exec-9] com.li.aspect.LogAspect                  : Result:{}index
+2024-10-19 23:59:20.332  INFO 21848 --- [http-nio-8082-exec-2] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
+2024-10-19 23:59:20.332  INFO 21848 --- [http-nio-8082-exec-2] com.li.aspect.LogAspect                  : Result:{}index
+2024-10-19 23:59:20.521  INFO 21848 --- [http-nio-8082-exec-5] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
+2024-10-19 23:59:20.521  INFO 21848 --- [http-nio-8082-exec-5] com.li.aspect.LogAspect                  : Result:{}index
