@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 
-<head>
+<head th:replace="admin/_fragments :: head(~{::title})">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>博客管理</title>
@@ -14,7 +14,7 @@
 
     <!-- 导航 -->
     <!-- inverted:反转 -->
-    <nav class="ui inverted attached segment m-padded-tb-mini  m-shadow-small">
+    <nav th:replace="admin/_fragments :: menu(1)" class="ui inverted attached segment m-padded-tb-mini  m-shadow-small">
         <div class="ui container">
             <!-- stackable: 可堆叠 -->
             <div class="ui inverted secondary  stackable menu">
@@ -144,7 +144,7 @@
 
 
     <!-- 底部 -->
-    <footer class="ui inverted vertical segment m-padded-tb-massive">
+    <footer th:replace="admin/_fragments :: footer" class="ui inverted vertical segment m-padded-tb-massive">
         <div class="ui center aligned container">
             <!-- grid:16份 -->
             <div class="ui inverted divided stackable grid">
@@ -189,9 +189,10 @@
 
 
 </body>
-<script src="../../static/lib/jquery/jquery.min.js"></script>
-<script src="../../static/lib/Semantic-UI/semantic.min.js"></script>
-
+<th:block th:replace="admin/_fragments :: script">
+    <script src="../../static/lib/jquery/jquery.min.js" ></script>
+    <script src="../../static/lib/Semantic-UI/semantic.min.js"></script>
+</th:block>
 
 <script>
     // 触发导航栏收纳

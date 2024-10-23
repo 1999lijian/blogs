@@ -1,386 +1,236 @@
-2024-10-20 00:00:27.541  INFO 1192 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 1192 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:00:27.544  INFO 1192 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:00:28.005  INFO 1192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:00:28.010  INFO 1192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:00:28.010  INFO 1192 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:00:28.049  INFO 1192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:00:28.049  INFO 1192 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 488 ms
-2024-10-20 00:00:28.205  INFO 1192 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:00:28.256  INFO 1192 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:00:28.360  INFO 1192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:00:28.362  INFO 1192 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.018 seconds (JVM running for 1.628)
-2024-10-20 00:00:31.025  INFO 1192 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:00:31.025  INFO 1192 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:00:31.031  INFO 1192 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2024-10-20 00:00:31.045  INFO 1192 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:00:31.050  INFO 1192 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:04:09.337  INFO 23192 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 23192 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:04:09.338  INFO 23192 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:04:09.840  INFO 23192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:04:09.845  INFO 23192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:04:09.845  INFO 23192 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:04:09.882  INFO 23192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:04:09.882  INFO 23192 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 525 ms
-2024-10-20 00:04:10.048  INFO 23192 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:04:10.102  INFO 23192 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:04:10.213  INFO 23192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:04:10.216  INFO 23192 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.098 seconds (JVM running for 1.746)
-2024-10-20 00:04:12.723  INFO 23192 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:04:12.724  INFO 23192 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:04:12.732  INFO 23192 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2024-10-20 00:04:12.748  INFO 23192 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:04:12.753  INFO 23192 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:04:22.409  INFO 23192 --- [http-nio-8082-exec-7] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:04:22.410  INFO 23192 --- [http-nio-8082-exec-7] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:04:22.769  INFO 23192 --- [http-nio-8082-exec-2] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:04:22.770  INFO 23192 --- [http-nio-8082-exec-2] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:04:23.446  INFO 23192 --- [http-nio-8082-exec-7] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:04:23.446  INFO 23192 --- [http-nio-8082-exec-7] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:14:56.035  INFO 24184 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 24184 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:14:56.036  INFO 24184 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:14:56.524  INFO 24184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:14:56.530  INFO 24184 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:14:56.530  INFO 24184 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:14:56.564  INFO 24184 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:14:56.565  INFO 24184 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 512 ms
-2024-10-20 00:14:56.722  INFO 24184 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:14:56.781  INFO 24184 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:14:56.905  INFO 24184 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:14:56.907  INFO 24184 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.08 seconds (JVM running for 1.65)
-2024-10-20 00:14:59.635  INFO 24184 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:14:59.636  INFO 24184 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:14:59.643  INFO 24184 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2024-10-20 00:14:59.657  INFO 24184 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:14:59.664  INFO 24184 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:15:00.669  INFO 24184 --- [http-nio-8082-exec-4] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:15:00.669  INFO 24184 --- [http-nio-8082-exec-4] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:15:01.256  INFO 24184 --- [http-nio-8082-exec-9] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:15:01.256  INFO 24184 --- [http-nio-8082-exec-9] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:15:01.443  INFO 24184 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:15:01.443  INFO 24184 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:15:01.616  INFO 24184 --- [http-nio-8082-exec-2] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:15:01.616  INFO 24184 --- [http-nio-8082-exec-2] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:17:12.277  INFO 1176 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 1176 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:17:12.279  INFO 1176 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:17:12.822  INFO 1176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:17:12.827  INFO 1176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:17:12.827  INFO 1176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:17:12.864  INFO 1176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:17:12.864  INFO 1176 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 560 ms
-2024-10-20 00:17:13.030  INFO 1176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:17:13.102  INFO 1176 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:17:13.223  INFO 1176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:17:13.225  INFO 1176 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.176 seconds (JVM running for 1.853)
-2024-10-20 00:17:27.664  INFO 1176 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:17:27.665  INFO 1176 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:17:27.672  INFO 1176 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2024-10-20 00:17:27.688  INFO 1176 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:17:27.693  INFO 1176 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:17:29.169  INFO 1176 --- [http-nio-8082-exec-9] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:17:29.169  INFO 1176 --- [http-nio-8082-exec-9] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:23:09.689  INFO 24608 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 24608 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:23:09.690  INFO 24608 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:23:10.182  INFO 24608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:23:10.187  INFO 24608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:23:10.187  INFO 24608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:23:10.221  INFO 24608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:23:10.221  INFO 24608 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 511 ms
-2024-10-20 00:23:10.383  INFO 24608 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:23:10.436  INFO 24608 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:23:10.541  INFO 24608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:23:10.543  INFO 24608 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.058 seconds (JVM running for 1.703)
-2024-10-20 00:23:19.254  INFO 24608 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:23:19.254  INFO 24608 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:23:19.263  INFO 24608 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2024-10-20 00:23:19.279  INFO 24608 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:23:19.286  INFO 24608 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:23:21.036  INFO 24608 --- [http-nio-8082-exec-9] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:23:21.036  INFO 24608 --- [http-nio-8082-exec-9] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:23:49.905  INFO 13736 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 13736 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:23:49.907  INFO 13736 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:23:50.394  INFO 13736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:23:50.400  INFO 13736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:23:50.400  INFO 13736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:23:50.437  INFO 13736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:23:50.437  INFO 13736 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 513 ms
-2024-10-20 00:23:50.593  INFO 13736 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:23:50.652  INFO 13736 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:23:50.758  INFO 13736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:23:50.760  INFO 13736 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.08 seconds (JVM running for 1.717)
-2024-10-20 00:23:50.916  INFO 13736 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:23:50.916  INFO 13736 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:23:50.922  INFO 13736 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2024-10-20 00:23:50.936  INFO 13736 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:23:50.944  INFO 13736 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:23:52.098  INFO 13736 --- [http-nio-8082-exec-6] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:23:52.098  INFO 13736 --- [http-nio-8082-exec-6] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:24:16.290  INFO 15656 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 15656 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:24:16.291  INFO 15656 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:24:16.824  INFO 15656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:24:16.829  INFO 15656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:24:16.829  INFO 15656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:24:16.865  INFO 15656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:24:16.865  INFO 15656 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 549 ms
-2024-10-20 00:24:17.016  INFO 15656 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:24:17.079  INFO 15656 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:24:17.190  INFO 15656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:24:17.192  INFO 15656 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.12 seconds (JVM running for 1.667)
-2024-10-20 00:24:27.679  INFO 19596 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 19596 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:24:27.680  INFO 19596 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:24:28.174  INFO 19596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:24:28.181  INFO 19596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:24:28.182  INFO 19596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:24:28.218  INFO 19596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:24:28.219  INFO 19596 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 520 ms
-2024-10-20 00:24:28.370  INFO 19596 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:24:28.429  INFO 19596 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:24:28.547  INFO 19596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:24:28.549  INFO 19596 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.076 seconds (JVM running for 1.664)
-2024-10-20 00:32:36.153  INFO 15656 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 15656 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:32:36.155  INFO 15656 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:32:36.673  INFO 15656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:32:36.678  INFO 15656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:32:36.678  INFO 15656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:32:36.713  INFO 15656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:32:36.713  INFO 15656 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 536 ms
-2024-10-20 00:32:36.870  INFO 15656 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:32:36.930  INFO 15656 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:32:37.038  INFO 15656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:32:37.040  INFO 15656 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.098 seconds (JVM running for 1.743)
-2024-10-20 00:32:37.181  INFO 15656 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:32:37.182  INFO 15656 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:32:37.188  INFO 15656 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2024-10-20 00:32:37.203  INFO 15656 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:32:37.209  INFO 15656 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:32:40.927  INFO 15656 --- [http-nio-8082-exec-3] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:32:40.927  INFO 15656 --- [http-nio-8082-exec-3] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:32:41.605  INFO 15656 --- [http-nio-8082-exec-10] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:32:41.605  INFO 15656 --- [http-nio-8082-exec-10] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:32:41.842  INFO 15656 --- [http-nio-8082-exec-8] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:32:41.843  INFO 15656 --- [http-nio-8082-exec-8] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:32:42.071  INFO 15656 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:32:42.071  INFO 15656 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:35:19.582  INFO 10560 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 10560 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:35:19.586  INFO 10560 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:35:20.073  INFO 10560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:35:20.080  INFO 10560 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:35:20.080  INFO 10560 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:35:20.118  INFO 10560 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:35:20.118  INFO 10560 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 514 ms
-2024-10-20 00:35:20.270  INFO 10560 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:35:20.332  INFO 10560 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:35:20.437  INFO 10560 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:35:20.439  INFO 10560 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.066 seconds (JVM running for 1.632)
-2024-10-20 00:35:23.491  INFO 10560 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:35:23.491  INFO 10560 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:35:23.498  INFO 10560 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2024-10-20 00:35:23.512  INFO 10560 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:35:23.517  INFO 10560 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:35:24.608  INFO 10560 --- [http-nio-8082-exec-3] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:35:24.609  INFO 10560 --- [http-nio-8082-exec-3] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:35:25.344  INFO 10560 --- [http-nio-8082-exec-5] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:35:25.344  INFO 10560 --- [http-nio-8082-exec-5] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:35:25.881  INFO 10560 --- [http-nio-8082-exec-6] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:35:25.881  INFO 10560 --- [http-nio-8082-exec-6] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:35:26.112  INFO 10560 --- [http-nio-8082-exec-7] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:35:26.112  INFO 10560 --- [http-nio-8082-exec-7] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:35:26.335  INFO 10560 --- [http-nio-8082-exec-8] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:35:26.335  INFO 10560 --- [http-nio-8082-exec-8] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:41:26.322  INFO 22684 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 22684 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:41:26.323  INFO 22684 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:41:26.818  INFO 22684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:41:26.824  INFO 22684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:41:26.824  INFO 22684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:41:26.863  INFO 22684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:41:26.864  INFO 22684 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 523 ms
-2024-10-20 00:41:27.032  INFO 22684 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:41:27.098  INFO 22684 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:41:27.204  INFO 22684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:41:27.206  INFO 22684 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.099 seconds (JVM running for 1.641)
-2024-10-20 00:41:31.310  INFO 22684 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:41:31.311  INFO 22684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:41:31.317  INFO 22684 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2024-10-20 00:41:31.330  INFO 22684 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:41:31.336  INFO 22684 --- [http-nio-8082-exec-1] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:41:33.392  INFO 22684 --- [http-nio-8082-exec-4] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/', ip='127.0.0.1', classMethod='com.li.web.IndexController.index', args=[]}
-2024-10-20 00:41:33.392  INFO 22684 --- [http-nio-8082-exec-4] com.li.aspect.LogAspect                  : Result:{}index
-2024-10-20 00:41:48.582  INFO 22684 --- [http-nio-8082-exec-6] com.li.aspect.LogAspect                  : Request:{}RequestLog{url='http://127.0.0.1:8082/blog', ip='127.0.0.1', classMethod='com.li.web.IndexController.blog', args=[]}
-2024-10-20 00:41:48.583  INFO 22684 --- [http-nio-8082-exec-6] com.li.aspect.LogAspect                  : Result:{}blog
-2024-10-20 00:46:00.185  INFO 24892 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 24892 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:46:00.186  INFO 24892 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:46:00.673  INFO 24892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:46:00.677  INFO 24892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:46:00.678  INFO 24892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:46:00.712  INFO 24892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:46:00.713  INFO 24892 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 507 ms
-2024-10-20 00:46:00.870  INFO 24892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:46:00.922  INFO 24892 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:46:01.035  INFO 24892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:46:01.037  INFO 24892 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.057 seconds (JVM running for 1.615)
-2024-10-20 00:46:46.186  INFO 24892 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:46:46.186  INFO 24892 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:46:46.193  INFO 24892 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
-2024-10-20 00:49:42.499  INFO 9840 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 9840 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-20 00:49:42.501  INFO 9840 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-20 00:49:42.985  INFO 9840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-20 00:49:42.989  INFO 9840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-20 00:49:42.990  INFO 9840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-20 00:49:43.025  INFO 9840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-20 00:49:43.025  INFO 9840 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 504 ms
-2024-10-20 00:49:43.195  INFO 9840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-20 00:49:43.253  INFO 9840 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-20 00:49:43.372  INFO 9840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-20 00:49:43.374  INFO 9840 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 1.098 seconds (JVM running for 1.71)
-2024-10-20 00:49:44.469  INFO 9840 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-20 00:49:44.469  INFO 9840 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-20 00:49:44.475  INFO 9840 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2024-10-21 10:15:11.951  INFO 19888 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on 1999LIJIAN with PID 19888 (G:\project\blogs\back-end\target\classes started by 10141 in G:\project\blogs\back-end)
-2024-10-21 10:15:11.951  INFO 19888 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-21 10:15:12.554  INFO 19888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2024-10-21 10:15:12.575  INFO 19888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
-2024-10-21 10:15:12.890  INFO 19888 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-10-21 10:15:13.329  INFO 19888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-21 10:15:13.339  INFO 19888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-21 10:15:13.339  INFO 19888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-21 10:15:13.440  INFO 19888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-21 10:15:13.440  INFO 19888 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1452 ms
-2024-10-21 10:15:13.617  INFO 19888 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-21 10:15:13.678  INFO 19888 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2024-10-21 10:15:13.790  INFO 19888 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2024-10-21 10:15:13.860  INFO 19888 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-21 10:15:14.265 ERROR 19888 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+2024-10-24 00:44:05.282  INFO 16284 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 16284 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-24 00:44:05.285  INFO 16284 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-24 00:44:05.585  INFO 16284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-24 00:44:05.624  INFO 16284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
+2024-10-24 00:44:05.764  INFO 16284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-24 00:44:05.999  INFO 16284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-24 00:44:06.003  INFO 16284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24 00:44:06.003  INFO 16284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-24 00:44:06.064  INFO 16284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24 00:44:06.065  INFO 16284 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 760 ms
+2024-10-24 00:44:06.183  INFO 16284 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24 00:44:06.263  INFO 16284 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-24 00:44:06.357  INFO 16284 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-24 00:44:06.453  INFO 16284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-24 00:44:06.731  INFO 16284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-24 00:44:06.740  INFO 16284 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-24 00:44:07.190  INFO 16284 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-24 00:44:07.194  INFO 16284 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24 00:44:07.509  WARN 16284 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24 00:44:07.630  INFO 16284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-24 00:44:07.691  INFO 16284 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-24 00:44:07.854  INFO 16284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-24 00:44:07.855  INFO 16284 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.849 seconds (JVM running for 3.497)
+2024-10-24 00:44:11.697  INFO 16284 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-24 00:44:11.697  INFO 16284 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-24 00:44:11.706  INFO 16284 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2024-10-24 00:44:15.659  WARN 16284 --- [http-nio-8082-exec-9] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [184] milliseconds.
+2024-10-24 00:58:27.709  INFO 17164 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 17164 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-24 00:58:27.710  INFO 17164 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-24 00:58:27.994  INFO 17164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-24 00:58:28.024  INFO 17164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 1 repository interfaces.
+2024-10-24 00:58:28.149  INFO 17164 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-24 00:58:28.354  INFO 17164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-24 00:58:28.361  INFO 17164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24 00:58:28.362  INFO 17164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-24 00:58:28.406  INFO 17164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24 00:58:28.406  INFO 17164 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 678 ms
+2024-10-24 00:58:28.497  INFO 17164 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24 00:58:28.531  INFO 17164 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-24 00:58:28.575  INFO 17164 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-24 00:58:28.620  INFO 17164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-24 00:58:28.768  INFO 17164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-24 00:58:28.775  INFO 17164 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-24 00:58:29.150  INFO 17164 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-24 00:58:29.154  INFO 17164 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24 00:58:29.431  WARN 17164 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24 00:58:29.544  INFO 17164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-24 00:58:29.606  INFO 17164 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-24 00:58:29.746  INFO 17164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-24 00:58:29.747  INFO 17164 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.266 seconds (JVM running for 2.905)
+2024-10-24 00:58:37.436  INFO 17164 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-24 00:58:37.437  INFO 17164 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-24 00:58:37.445  INFO 17164 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2024-10-24 00:59:37.940  INFO 4580 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 4580 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-24 00:59:37.942  INFO 4580 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-24 00:59:38.605  INFO 4580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-24 00:59:38.649  INFO 4580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 1 repository interfaces.
+2024-10-24 00:59:38.850  INFO 4580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-24 00:59:39.237  INFO 4580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-24 00:59:39.245  INFO 4580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24 00:59:39.245  INFO 4580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-24 00:59:39.314  INFO 4580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24 00:59:39.315  INFO 4580 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1301 ms
+2024-10-24 00:59:39.455  INFO 4580 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24 00:59:39.488  INFO 4580 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-24 00:59:39.538  INFO 4580 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-24 00:59:39.595  INFO 4580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-24 00:59:39.765  INFO 4580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-24 00:59:39.773  INFO 4580 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-24 00:59:40.122  INFO 4580 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-24 00:59:40.125  INFO 4580 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24 00:59:40.417  WARN 4580 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24 00:59:40.536  INFO 4580 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-24 00:59:40.594  INFO 4580 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-24 00:59:40.748  INFO 4580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-24 00:59:40.749  INFO 4580 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 3.453 seconds (JVM running for 4.528)
+2024-10-24 00:59:41.283  INFO 4580 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-24 00:59:41.283  INFO 4580 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-24 00:59:41.290  INFO 4580 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-10-24 00:59:52.819  WARN 4580 --- [http-nio-8082-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [176] milliseconds.
+2024-10-24 01:00:17.919  INFO 5676 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 5676 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-24 01:00:17.920  INFO 5676 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-24 01:00:18.177  INFO 5676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-24 01:00:18.204  INFO 5676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 1 repository interfaces.
+2024-10-24 01:00:18.323  INFO 5676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-24 01:00:18.517  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-24 01:00:18.521  INFO 5676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24 01:00:18.522  INFO 5676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-24 01:00:18.574  INFO 5676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24 01:00:18.574  INFO 5676 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 636 ms
+2024-10-24 01:00:18.672  INFO 5676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24 01:00:18.697  INFO 5676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-24 01:00:18.740  INFO 5676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-24 01:00:18.786  INFO 5676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-24 01:00:18.932  INFO 5676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-24 01:00:18.940  INFO 5676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-24 01:00:19.298  INFO 5676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-24 01:00:19.302  INFO 5676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24 01:00:19.586  WARN 5676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24 01:00:19.701  INFO 5676 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-24 01:00:19.759  INFO 5676 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-24 01:00:19.912  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-24 01:00:19.913  INFO 5676 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.207 seconds (JVM running for 2.711)
+2024-10-24 01:00:21.063  INFO 5676 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-24 01:00:21.063  INFO 5676 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-24 01:00:21.071  INFO 5676 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2024-10-24 01:00:30.012  WARN 5676 --- [http-nio-8082-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [182] milliseconds.
+2024-10-24 01:14:17.160  INFO 6076 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 6076 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-24 01:14:17.161  INFO 6076 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-24 01:14:17.427  INFO 6076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-24 01:14:17.454  INFO 6076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 1 repository interfaces.
+2024-10-24 01:14:17.570  INFO 6076 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-24 01:14:17.771  INFO 6076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-24 01:14:17.773  INFO 6076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-24 01:14:17.773  INFO 6076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-24 01:14:17.830  INFO 6076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-24 01:14:17.830  INFO 6076 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 656 ms
+2024-10-24 01:14:17.932  INFO 6076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-24 01:14:17.960  INFO 6076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-24 01:14:18.006  INFO 6076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-24 01:14:18.050  INFO 6076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-24 01:14:18.205  INFO 6076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-24 01:14:18.214  INFO 6076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-24 01:14:18.574  INFO 6076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-24 01:14:18.589  INFO 6076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-24 01:14:18.886  WARN 6076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-24 01:14:19.006  INFO 6076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-24 01:14:19.069  INFO 6076 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-24 01:14:19.235  INFO 6076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-24 01:14:19.236  INFO 6076 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.289 seconds (JVM running for 2.835)
+2024-10-24 01:14:21.671  INFO 6076 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-24 01:14:21.671  INFO 6076 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-24 01:14:21.677  INFO 6076 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-10-24 01:14:21.872  WARN 6076 --- [http-nio-8082-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [187] milliseconds.
+2024-10-24 01:14:41.622 ERROR 6076 --- [http-nio-8082-exec-1] c.li.handler.ControllerExceptionHandler  : Requset URL:http://127.0.0.1:8082/admin/login,Exception:{}
 
-java.sql.SQLSyntaxErrorException: Unknown database 'blog'
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
-	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
-	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
-	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:175)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1214)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1245)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.li.BackEndApplication.main(BackEndApplication.java:10)
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:421)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:393)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 
-2024-10-21 10:15:14.266  WARN 19888 --- [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Unknown database 'blog'
-2024-10-21 10:15:14.268  WARN 19888 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-2024-10-21 10:15:14.270  INFO 19888 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2024-10-21 10:15:14.280  INFO 19888 --- [main] ConditionEvaluationReportLoggingListener : 
+2024-10-24 01:14:45.077 ERROR 6076 --- [http-nio-8082-exec-2] c.li.handler.ControllerExceptionHandler  : Requset URL:http://127.0.0.1:8082/admin/login,Exception:{}
 
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2024-10-21 10:15:14.285 ERROR 19888 --- [main] o.s.boot.SpringApplication               : Application run failed
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:421)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:393)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
-	at com.li.BackEndApplication.main(BackEndApplication.java:10)
-Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
-	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:175)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:118)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1214)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1245)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
-	... 16 common frames omitted
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
-	... 33 common frames omitted
-
-2024-10-21 10:16:04.025  INFO 14636 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on 1999LIJIAN with PID 14636 (G:\project\blogs\back-end\target\classes started by 10141 in G:\project\blogs\back-end)
-2024-10-21 10:16:04.025  INFO 14636 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-21 10:16:04.622  INFO 14636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2024-10-21 10:16:04.642  INFO 14636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
-2024-10-21 10:16:04.842  INFO 14636 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-10-21 10:16:05.175  INFO 14636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-21 10:16:05.175  INFO 14636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-21 10:16:05.175  INFO 14636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-21 10:16:05.265  INFO 14636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-21 10:16:05.265  INFO 14636 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1199 ms
-2024-10-21 10:16:05.407  INFO 14636 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-21 10:16:05.447  INFO 14636 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2024-10-21 10:16:05.527  INFO 14636 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2024-10-21 10:16:05.587  INFO 14636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-21 10:16:05.847  INFO 14636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-10-21 10:16:05.860  INFO 14636 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2024-10-21 10:16:06.802  INFO 14636 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-10-21 10:16:06.807  INFO 14636 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-21 10:16:06.945  WARN 14636 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-21 10:16:07.166  INFO 14636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-21 10:16:07.261  INFO 14636 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-21 10:16:07.510  INFO 14636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-21 10:16:07.512  INFO 14636 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 3.861 seconds (JVM running for 4.667)
-2024-10-21 10:21:35.100  WARN 14636 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s100ms584µs900ns).

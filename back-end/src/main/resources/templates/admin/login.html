@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  xmlns:th="http://www.w3.org/1999/xhtml">
 
-<head>
+<head th:replace="admin/_fragments :: head(~{::title})">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>博客管理</title>
@@ -22,7 +22,7 @@
                     管理后台登录
                 </div>
             </h2>
-            <form class="ui large form" method="post" action="#">
+            <form class="ui large form" method="post" action="#" th:action="@{/admin/login}">
                 <div class="ui stacked segment">
                     <div class="field">
                         <div class="ui left icon input">
@@ -36,11 +36,11 @@
                             <input type="password" name="password" placeholder="密码">
                         </div>
                         <div id="extwaiokist" style="display:none" v="fifea" q="5ccbf93d" c="443.4" i="447" u="1.385" s="10182400" sg="svr_undefined-ga_10182400-bai_10172417" d="1" w="false" e="" a="2" m="BMe=" vn="9zsim"><div id="extwaigglbit" style="display:none" v="fifea" q="5ccbf93d" c="443.4" i="447" u="1.385" s="10182400" sg="svr_undefined-ga_10182400-bai_10172417" d="1" w="false" e="" a="2" m="BMe="></div></div></div>
-                    <div class="ui fluid large teal submit button">登 录</div>
+                    <button class="ui fluid large teal submit button">登 录</button>
                 </div>
 
-                <div class="ui error message"></div>
-
+                <div class="ui mini error message"></div>
+                <div class="ui mini negative message" th:unless="${#strings.isEmpty(message)}" th:text="${message}"></div>
             </form>
 
 
@@ -59,10 +59,32 @@
 
 
 </body>
-<script src="../../static/lib/jquery/jquery.min.js"></script>
-<script src="../../static/lib/Semantic-UI/semantic.min.js"></script>
+<th:block th:replace="_fragments :: script">
+    <script src="../../static/lib/jquery/jquery.min.js" ></script>
+    <script src="../../static/lib/Semantic-UI/semantic.min.js"></script>
+</th:block>
 
 
+<script>
+    $('.ui.form').form({
+        fields: {
+            username: {
+                identifier: 'username',
+                rules: [{
+                    type: 'empty',
+                    prompt: '请输入用户名'
+                }]
+            },
+            password: {
+                identifier: 'password',
+                rules: [{
+                    type: 'empty',
+                    prompt: '请输入密码'
+                }]
+            }
+        }
+    });
+</script>
 
 
 </html>
