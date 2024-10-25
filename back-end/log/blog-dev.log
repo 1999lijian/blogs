@@ -1,148 +1,80 @@
-2024-10-24 00:44:05.282  INFO 16284 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 16284 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-24 00:44:05.285  INFO 16284 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-24 00:44:05.585  INFO 16284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2024-10-24 00:44:05.624  INFO 16284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34ms. Found 1 repository interfaces.
-2024-10-24 00:44:05.764  INFO 16284 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-10-24 00:44:05.999  INFO 16284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-24 00:44:06.003  INFO 16284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-24 00:44:06.003  INFO 16284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-24 00:44:06.064  INFO 16284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-24 00:44:06.065  INFO 16284 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 760 ms
-2024-10-24 00:44:06.183  INFO 16284 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-24 00:44:06.263  INFO 16284 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2024-10-24 00:44:06.357  INFO 16284 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2024-10-24 00:44:06.453  INFO 16284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-24 00:44:06.731  INFO 16284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-10-24 00:44:06.740  INFO 16284 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2024-10-24 00:44:07.190  INFO 16284 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-10-24 00:44:07.194  INFO 16284 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-24 00:44:07.509  WARN 16284 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-24 00:44:07.630  INFO 16284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-24 00:44:07.691  INFO 16284 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-24 00:44:07.854  INFO 16284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-24 00:44:07.855  INFO 16284 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.849 seconds (JVM running for 3.497)
-2024-10-24 00:44:11.697  INFO 16284 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-24 00:44:11.697  INFO 16284 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-24 00:44:11.706  INFO 16284 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
-2024-10-24 00:44:15.659  WARN 16284 --- [http-nio-8082-exec-9] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [184] milliseconds.
-2024-10-24 00:58:27.709  INFO 17164 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 17164 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-24 00:58:27.710  INFO 17164 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-24 00:58:27.994  INFO 17164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2024-10-24 00:58:28.024  INFO 17164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 1 repository interfaces.
-2024-10-24 00:58:28.149  INFO 17164 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-10-24 00:58:28.354  INFO 17164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-24 00:58:28.361  INFO 17164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-24 00:58:28.362  INFO 17164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-24 00:58:28.406  INFO 17164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-24 00:58:28.406  INFO 17164 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 678 ms
-2024-10-24 00:58:28.497  INFO 17164 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-24 00:58:28.531  INFO 17164 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2024-10-24 00:58:28.575  INFO 17164 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2024-10-24 00:58:28.620  INFO 17164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-24 00:58:28.768  INFO 17164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-10-24 00:58:28.775  INFO 17164 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2024-10-24 00:58:29.150  INFO 17164 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-10-24 00:58:29.154  INFO 17164 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-24 00:58:29.431  WARN 17164 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-24 00:58:29.544  INFO 17164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-24 00:58:29.606  INFO 17164 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-24 00:58:29.746  INFO 17164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-24 00:58:29.747  INFO 17164 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.266 seconds (JVM running for 2.905)
-2024-10-24 00:58:37.436  INFO 17164 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-24 00:58:37.437  INFO 17164 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-24 00:58:37.445  INFO 17164 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2024-10-24 00:59:37.940  INFO 4580 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 4580 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-24 00:59:37.942  INFO 4580 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-24 00:59:38.605  INFO 4580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2024-10-24 00:59:38.649  INFO 4580 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38ms. Found 1 repository interfaces.
-2024-10-24 00:59:38.850  INFO 4580 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-10-24 00:59:39.237  INFO 4580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-24 00:59:39.245  INFO 4580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-24 00:59:39.245  INFO 4580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-24 00:59:39.314  INFO 4580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-24 00:59:39.315  INFO 4580 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1301 ms
-2024-10-24 00:59:39.455  INFO 4580 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-24 00:59:39.488  INFO 4580 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2024-10-24 00:59:39.538  INFO 4580 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2024-10-24 00:59:39.595  INFO 4580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-24 00:59:39.765  INFO 4580 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-10-24 00:59:39.773  INFO 4580 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2024-10-24 00:59:40.122  INFO 4580 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-10-24 00:59:40.125  INFO 4580 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-24 00:59:40.417  WARN 4580 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-24 00:59:40.536  INFO 4580 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-24 00:59:40.594  INFO 4580 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-24 00:59:40.748  INFO 4580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-24 00:59:40.749  INFO 4580 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 3.453 seconds (JVM running for 4.528)
-2024-10-24 00:59:41.283  INFO 4580 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-24 00:59:41.283  INFO 4580 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-24 00:59:41.290  INFO 4580 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2024-10-24 00:59:52.819  WARN 4580 --- [http-nio-8082-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [176] milliseconds.
-2024-10-24 01:00:17.919  INFO 5676 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 5676 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-24 01:00:17.920  INFO 5676 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-24 01:00:18.177  INFO 5676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2024-10-24 01:00:18.204  INFO 5676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 1 repository interfaces.
-2024-10-24 01:00:18.323  INFO 5676 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-10-24 01:00:18.517  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-24 01:00:18.521  INFO 5676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-24 01:00:18.522  INFO 5676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-24 01:00:18.574  INFO 5676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-24 01:00:18.574  INFO 5676 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 636 ms
-2024-10-24 01:00:18.672  INFO 5676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-24 01:00:18.697  INFO 5676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2024-10-24 01:00:18.740  INFO 5676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2024-10-24 01:00:18.786  INFO 5676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-24 01:00:18.932  INFO 5676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-10-24 01:00:18.940  INFO 5676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2024-10-24 01:00:19.298  INFO 5676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-10-24 01:00:19.302  INFO 5676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-24 01:00:19.586  WARN 5676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-24 01:00:19.701  INFO 5676 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-24 01:00:19.759  INFO 5676 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-24 01:00:19.912  INFO 5676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-24 01:00:19.913  INFO 5676 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.207 seconds (JVM running for 2.711)
-2024-10-24 01:00:21.063  INFO 5676 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-24 01:00:21.063  INFO 5676 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-24 01:00:21.071  INFO 5676 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
-2024-10-24 01:00:30.012  WARN 5676 --- [http-nio-8082-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [182] milliseconds.
-2024-10-24 01:14:17.160  INFO 6076 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 6076 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
-2024-10-24 01:14:17.161  INFO 6076 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
-2024-10-24 01:14:17.427  INFO 6076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
-2024-10-24 01:14:17.454  INFO 6076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23ms. Found 1 repository interfaces.
-2024-10-24 01:14:17.570  INFO 6076 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2024-10-24 01:14:17.771  INFO 6076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
-2024-10-24 01:14:17.773  INFO 6076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-10-24 01:14:17.773  INFO 6076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
-2024-10-24 01:14:17.830  INFO 6076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-10-24 01:14:17.830  INFO 6076 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 656 ms
-2024-10-24 01:14:17.932  INFO 6076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-10-24 01:14:17.960  INFO 6076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
-2024-10-24 01:14:18.006  INFO 6076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2024-10-24 01:14:18.050  INFO 6076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-10-24 01:14:18.205  INFO 6076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-10-24 01:14:18.214  INFO 6076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2024-10-24 01:14:18.574  INFO 6076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-10-24 01:14:18.589  INFO 6076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-10-24 01:14:18.886  WARN 6076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-10-24 01:14:19.006  INFO 6076 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2024-10-24 01:14:19.069  INFO 6076 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2024-10-24 01:14:19.235  INFO 6076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
-2024-10-24 01:14:19.236  INFO 6076 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.289 seconds (JVM running for 2.835)
-2024-10-24 01:14:21.671  INFO 6076 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-10-24 01:14:21.671  INFO 6076 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-10-24 01:14:21.677  INFO 6076 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
-2024-10-24 01:14:21.872  WARN 6076 --- [http-nio-8082-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [187] milliseconds.
-2024-10-24 01:14:41.622 ERROR 6076 --- [http-nio-8082-exec-1] c.li.handler.ControllerExceptionHandler  : Requset URL:http://127.0.0.1:8082/admin/login,Exception:{}
+2024-10-26 01:32:18.295  INFO 4800 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 4800 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-26 01:32:18.299  INFO 4800 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-26 01:32:18.698  INFO 4800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-26 01:32:18.752  INFO 4800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 2 repository interfaces.
+2024-10-26 01:32:18.893  INFO 4800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-26 01:32:19.137  INFO 4800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-26 01:32:19.142  INFO 4800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-26 01:32:19.143  INFO 4800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-26 01:32:19.205  INFO 4800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-26 01:32:19.205  INFO 4800 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 879 ms
+2024-10-26 01:32:19.319  INFO 4800 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-26 01:32:19.363  INFO 4800 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-26 01:32:19.440  INFO 4800 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-26 01:32:19.500  INFO 4800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-26 01:32:19.709  INFO 4800 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-26 01:32:19.719  INFO 4800 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-26 01:32:20.169  INFO 4800 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-26 01:32:20.184  INFO 4800 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-26 01:32:20.532  WARN 4800 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-26 01:32:20.654  INFO 4800 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-26 01:32:20.725  INFO 4800 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-26 01:32:20.901  INFO 4800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-26 01:32:20.902  INFO 4800 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 3.004 seconds (JVM running for 3.746)
+2024-10-26 01:32:23.835  INFO 4800 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 01:32:23.836  INFO 4800 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-26 01:32:23.843  INFO 4800 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-10-26 01:32:29.093  WARN 4800 --- [http-nio-8082-exec-4] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [187] milliseconds.
+2024-10-26 01:33:42.734  INFO 9824 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 9824 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-26 01:33:42.736  INFO 9824 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-26 01:33:43.068  INFO 9824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-26 01:33:43.101  INFO 9824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 2 repository interfaces.
+2024-10-26 01:33:43.234  INFO 9824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-26 01:33:43.437  INFO 9824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-26 01:33:43.441  INFO 9824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-26 01:33:43.441  INFO 9824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-26 01:33:43.495  INFO 9824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-26 01:33:43.495  INFO 9824 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 737 ms
+2024-10-26 01:33:43.590  INFO 9824 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-26 01:33:43.618  INFO 9824 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-26 01:33:43.666  INFO 9824 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-26 01:33:43.703  INFO 9824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-26 01:33:43.844  INFO 9824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-26 01:33:43.852  INFO 9824 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-26 01:33:44.207  INFO 9824 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-26 01:33:44.211  INFO 9824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-26 01:33:44.549  WARN 9824 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-26 01:33:44.665  INFO 9824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-26 01:33:44.744  INFO 9824 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-26 01:33:44.887  INFO 9824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-26 01:33:44.888  INFO 9824 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.398 seconds (JVM running for 3.184)
+2024-10-26 01:33:51.502  INFO 9824 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 01:33:51.503  INFO 9824 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-26 01:33:51.509  INFO 9824 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-10-26 01:33:51.718  WARN 9824 --- [http-nio-8082-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [192] milliseconds.
+2024-10-26 01:33:52.877 ERROR 9824 --- [http-nio-8082-exec-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8082-exec-3] Exception processing template "admin/types": Could not parse as expression: "@{/admin/types/(page=${page.number}-1)" (template: "admin/types" - line 91, col 28)
 
-org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
-	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:421)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
-	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:393)
-	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{/admin/types/(page=${page.number}-1)" (template: "admin/types" - line 91, col 28)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
@@ -183,17 +115,29 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 
-2024-10-24 01:14:45.077 ERROR 6076 --- [http-nio-8082-exec-2] c.li.handler.ControllerExceptionHandler  : Requset URL:http://127.0.0.1:8082/admin/login,Exception:{}
+2024-10-26 01:33:52.879 ERROR 9824 --- [http-nio-8082-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{/admin/types/(page=${page.number}-1)" (template: "admin/types" - line 91, col 28)] with root cause
 
-org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
-	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:201)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:421)
-	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:367)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:449)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getHandlerInternal(RequestMappingHandlerMapping.java:67)
-	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:393)
-	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1234)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1016)
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{/admin/types/(page=${page.number}-1)" (template: "admin/types" - line 91, col 28)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
@@ -234,3 +178,291 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 
+2024-10-26 01:34:04.017 ERROR 9824 --- [http-nio-8082-exec-7] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8082-exec-7] Exception processing template "admin/types": Could not parse as expression: "@{/admin/types/(page=${page.number}-1)" (template: "admin/types" - line 91, col 28)
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{/admin/types/(page=${page.number}-1)" (template: "admin/types" - line 91, col 28)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2024-10-26 01:34:04.017 ERROR 9824 --- [http-nio-8082-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{/admin/types/(page=${page.number}-1)" (template: "admin/types" - line 91, col 28)] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "@{/admin/types/(page=${page.number}-1)" (template: "admin/types" - line 91, col 28)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:125)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2024-10-26 01:36:19.646  INFO 288 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 288 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-26 01:36:19.648  INFO 288 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-26 01:36:19.908  INFO 288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-26 01:36:19.940  INFO 288 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 2 repository interfaces.
+2024-10-26 01:36:20.054  INFO 288 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-26 01:36:20.250  INFO 288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-26 01:36:20.254  INFO 288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-26 01:36:20.255  INFO 288 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-26 01:36:20.305  INFO 288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-26 01:36:20.305  INFO 288 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 637 ms
+2024-10-26 01:36:20.402  INFO 288 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-26 01:36:20.434  INFO 288 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-26 01:36:20.478  INFO 288 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-26 01:36:20.515  INFO 288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-26 01:36:20.647  INFO 288 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-26 01:36:20.654  INFO 288 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-26 01:36:21.026  INFO 288 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-26 01:36:21.030  INFO 288 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-26 01:36:21.346  WARN 288 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-26 01:36:21.461  INFO 288 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-26 01:36:21.524  INFO 288 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-26 01:36:21.689  INFO 288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-26 01:36:21.690  INFO 288 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.271 seconds (JVM running for 2.853)
+2024-10-26 01:36:25.105  INFO 288 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 01:36:25.106  INFO 288 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-26 01:36:25.112  INFO 288 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-10-26 01:36:25.349  WARN 288 --- [http-nio-8082-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [229] milliseconds.
+2024-10-26 01:39:29.017  INFO 18692 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 18692 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-26 01:39:29.019  INFO 18692 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-26 01:39:29.282  INFO 18692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-26 01:39:29.312  INFO 18692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 2 repository interfaces.
+2024-10-26 01:39:29.425  INFO 18692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-26 01:39:29.617  INFO 18692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-26 01:39:29.621  INFO 18692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-26 01:39:29.621  INFO 18692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-26 01:39:29.670  INFO 18692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-26 01:39:29.671  INFO 18692 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 635 ms
+2024-10-26 01:39:29.760  INFO 18692 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-26 01:39:29.785  INFO 18692 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-26 01:39:29.827  INFO 18692 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-26 01:39:29.866  INFO 18692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-26 01:39:30.006  INFO 18692 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-26 01:39:30.014  INFO 18692 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-26 01:39:30.350  INFO 18692 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-26 01:39:30.354  INFO 18692 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-26 01:39:30.659  WARN 18692 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-26 01:39:30.765  INFO 18692 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-26 01:39:30.823  INFO 18692 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-26 01:39:30.972  INFO 18692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-26 01:39:30.973  INFO 18692 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.173 seconds (JVM running for 2.701)
+2024-10-26 01:39:35.401  INFO 18692 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 01:39:35.402  INFO 18692 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-26 01:39:35.408  INFO 18692 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-10-26 01:39:35.645  WARN 18692 --- [http-nio-8082-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [228] milliseconds.
+2024-10-26 01:44:38.827  INFO 19708 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 19708 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-26 01:44:38.828  INFO 19708 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-26 01:44:39.102  INFO 19708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-26 01:44:39.136  INFO 19708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29ms. Found 2 repository interfaces.
+2024-10-26 01:44:39.258  INFO 19708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-26 01:44:39.461  INFO 19708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-26 01:44:39.466  INFO 19708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-26 01:44:39.466  INFO 19708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-26 01:44:39.519  INFO 19708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-26 01:44:39.520  INFO 19708 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 672 ms
+2024-10-26 01:44:39.622  INFO 19708 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-26 01:44:39.651  INFO 19708 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-26 01:44:39.700  INFO 19708 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-26 01:44:39.742  INFO 19708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-26 01:44:39.894  INFO 19708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-26 01:44:39.903  INFO 19708 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-26 01:44:40.251  INFO 19708 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-26 01:44:40.255  INFO 19708 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-26 01:44:40.573  WARN 19708 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-26 01:44:40.700  INFO 19708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-26 01:44:40.766  INFO 19708 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-26 01:44:40.959  INFO 19708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-26 01:44:40.961  INFO 19708 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.35 seconds (JVM running for 2.92)
+2024-10-26 01:44:43.502  INFO 19708 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 01:44:43.503  INFO 19708 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-26 01:44:43.510  INFO 19708 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-10-26 01:44:43.726  WARN 19708 --- [http-nio-8082-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [208] milliseconds.
+2024-10-26 01:47:42.165  INFO 22592 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 22592 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-26 01:47:42.167  INFO 22592 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-26 01:47:42.439  INFO 22592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-26 01:47:42.469  INFO 22592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 2 repository interfaces.
+2024-10-26 01:47:42.588  INFO 22592 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-26 01:47:42.788  INFO 22592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-26 01:47:42.792  INFO 22592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-26 01:47:42.792  INFO 22592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-26 01:47:42.845  INFO 22592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-26 01:47:42.845  INFO 22592 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 662 ms
+2024-10-26 01:47:42.936  INFO 22592 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-26 01:47:42.962  INFO 22592 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-26 01:47:43.004  INFO 22592 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-26 01:47:43.043  INFO 22592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-26 01:47:43.187  INFO 22592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-26 01:47:43.195  INFO 22592 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-26 01:47:43.557  INFO 22592 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-26 01:47:43.561  INFO 22592 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-26 01:47:43.885  WARN 22592 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-26 01:47:43.998  INFO 22592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-26 01:47:44.054  INFO 22592 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-26 01:47:44.197  INFO 22592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-26 01:47:44.198  INFO 22592 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.239 seconds (JVM running for 2.856)
+2024-10-26 01:47:49.804  INFO 22592 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 01:47:49.804  INFO 22592 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-26 01:47:49.811  INFO 22592 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-10-26 01:47:50.027  WARN 22592 --- [http-nio-8082-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [207] milliseconds.
+2024-10-26 01:49:22.932  INFO 12156 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 12156 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-26 01:49:22.934  INFO 12156 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-26 01:49:23.206  INFO 12156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-26 01:49:23.237  INFO 12156 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 2 repository interfaces.
+2024-10-26 01:49:23.357  INFO 12156 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-26 01:49:23.557  INFO 12156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-26 01:49:23.562  INFO 12156 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-26 01:49:23.562  INFO 12156 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-26 01:49:23.606  INFO 12156 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-26 01:49:23.606  INFO 12156 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 656 ms
+2024-10-26 01:49:23.692  INFO 12156 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-26 01:49:23.721  INFO 12156 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-26 01:49:23.766  INFO 12156 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-26 01:49:23.806  INFO 12156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-26 01:49:23.964  INFO 12156 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-26 01:49:23.972  INFO 12156 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-26 01:49:24.322  INFO 12156 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-26 01:49:24.326  INFO 12156 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-26 01:49:24.663  WARN 12156 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-26 01:49:24.788  INFO 12156 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-26 01:49:24.848  INFO 12156 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-26 01:49:24.991  INFO 12156 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-26 01:49:24.992  INFO 12156 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.277 seconds (JVM running for 2.882)
+2024-10-26 01:49:27.556  INFO 12156 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 01:49:27.556  INFO 12156 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-26 01:49:27.562  INFO 12156 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-10-26 01:49:27.759  WARN 12156 --- [http-nio-8082-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [190] milliseconds.
+2024-10-26 01:50:09.925  INFO 17532 --- [main] com.li.BackEndApplication                : Starting BackEndApplication on LIJIANTPC with PID 17532 (D:\project\blogs\back-end\target\classes started by 10141 in D:\project\blogs\back-end)
+2024-10-26 01:50:09.926  INFO 17532 --- [main] com.li.BackEndApplication                : The following profiles are active: dev
+2024-10-26 01:50:10.208  INFO 17532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2024-10-26 01:50:10.239  INFO 17532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 2 repository interfaces.
+2024-10-26 01:50:10.361  INFO 17532 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-10-26 01:50:10.582  INFO 17532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-10-26 01:50:10.587  INFO 17532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-26 01:50:10.587  INFO 17532 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2024-10-26 01:50:10.642  INFO 17532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-26 01:50:10.642  INFO 17532 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 698 ms
+2024-10-26 01:50:10.736  INFO 17532 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-26 01:50:10.764  INFO 17532 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.8.Final}
+2024-10-26 01:50:10.811  INFO 17532 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-10-26 01:50:10.853  INFO 17532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-26 01:50:11.010  INFO 17532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-26 01:50:11.018  INFO 17532 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-10-26 01:50:11.393  INFO 17532 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-26 01:50:11.397  INFO 17532 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-26 01:50:11.743  WARN 17532 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-26 01:50:11.880  INFO 17532 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-10-26 01:50:11.946  INFO 17532 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-10-26 01:50:12.095  INFO 17532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-10-26 01:50:12.096  INFO 17532 --- [main] com.li.BackEndApplication                : Started BackEndApplication in 2.379 seconds (JVM running for 2.947)
+2024-10-26 01:50:12.814  INFO 17532 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-26 01:50:12.814  INFO 17532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-26 01:50:12.820  INFO 17532 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-10-26 01:50:13.032  WARN 17532 --- [http-nio-8082-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [203] milliseconds.
