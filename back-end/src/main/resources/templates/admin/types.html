@@ -61,6 +61,13 @@
 <div class="m-container-small m-padded-tb-big">
     <div class="ui container">
 
+        <div class="ui success message" th:unless="${#strings.isEmpty(message)}">
+            <i class="close icon"></i>
+            <div class="header">提示：</div>
+            <p th:text="${message}">操作成功</p>
+        </div>
+
+
         <table class="ui celled table">
             <thead>
             <tr>
@@ -86,7 +93,7 @@
 
             <tfoot>
             <tr>
-                <th colspan="6" >
+                <th colspan="6">
                     <div th:if="${page.totalPages}>1" class="ui mini pagination menu">
                         <a th:href="@{/admin/types/(page=${page.number}-1)}" th:unless="${page.first}" class="item">
                             上一页
@@ -161,6 +168,15 @@
     });
     $('.ui.dropdown').dropdown({
         on: 'hover'
+    });
+
+
+    //    提示框 x js
+    $('.message .close')
+        .on('click', function () {
+        $(this)
+            .closest('.message')
+            .transition('fade');
     });
 
 

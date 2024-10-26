@@ -17,10 +17,10 @@ import org.springframework.transaction.annotation.Transactional;
  */
 
 @Service
-public class TypeServiceImpl  implements TypeService {
+public class TypeServiceImpl implements TypeService {
 
     @Autowired
-    private  TypeRepository typeRepository;
+    private TypeRepository typeRepository;
 
     public TypeServiceImpl(TypeRepository typeRepository) {
         this.typeRepository = typeRepository;
@@ -50,10 +50,10 @@ public class TypeServiceImpl  implements TypeService {
 //        根据id进行查询
         Type t = typeRepository.findById(id).get();
 //        如果id不存在抛出异常
-        if (t==null){
+        if (t == null) {
             throw new NotFoundException("不存在该数据");
         }
-        BeanUtils.copyProperties(type,t);
+        BeanUtils.copyProperties(type, t);
 
         return typeRepository.save(t);
     }
@@ -61,6 +61,6 @@ public class TypeServiceImpl  implements TypeService {
     @Transactional
     @Override
     public void deleteTyep(Long id) {
-typeRepository.deleteById(id);
+        typeRepository.deleteById(id);
     }
 }

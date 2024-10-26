@@ -2,6 +2,7 @@ package com.li.po;
 
 
 import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +16,7 @@ public class Type {
     @GeneratedValue
     private Long id;
     //    名称
+    @NotBlank(message = "分类名称不能为空")
     private String name;
     //    @OneToMany表明当前实体与另一个实体之间存在一对多的关联关系。
     //mappedBy = "type"指定了这个关系的反向端

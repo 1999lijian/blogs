@@ -17,6 +17,10 @@ public class UserServieceImpl implements UserService {
     @Override
     public User checkUser(String username, String password) {
         User user =userRepositoy.findByUsernameAndPassword(username, MD5Utils.code(password));
+
+
         return user;
     }
+
+
 }
