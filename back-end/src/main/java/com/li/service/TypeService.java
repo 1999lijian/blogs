@@ -19,4 +19,6 @@ public interface TypeService {
     Type updateType(Long id,Type type);
 //    根据id删除
     void deleteTyep(Long id);
+//    通过名称查询
+    Type getTypeByName(String name);
 }
