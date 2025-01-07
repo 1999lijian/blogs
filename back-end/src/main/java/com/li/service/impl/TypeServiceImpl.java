@@ -11,6 +11,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 /**
  * @Author LIJIAN
  * @Date 2024/10/25 16:46
@@ -67,5 +69,11 @@ public class TypeServiceImpl implements TypeService {
     @Override
     public Type getTypeByName(String name) {
         return typeRepository.findByName(name);
+    }
+
+    @Override
+    public List<Type> listType() {
+
+        return typeRepository.findAll();
     }
 }

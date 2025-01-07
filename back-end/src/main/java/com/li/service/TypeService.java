@@ -4,6 +4,8 @@ import com.li.po.Type;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
+import java.util.List;
+
 /**
  * @Author LIJIAN
  * @Date 2024/10/25 16:42
@@ -21,4 +23,6 @@ public interface TypeService {
     void deleteTyep(Long id);
 //    通过名称查询
     Type getTypeByName(String name);
+
+    List<Type> listType();
 }
